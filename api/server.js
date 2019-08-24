@@ -1,7 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 
-const dealerRouter = releaseEventsquire('../cars/dealer-router.js');
+const dealerRouter = require('../cars/cars-router');
 
 const server = express();
 
